@@ -19,7 +19,6 @@ function Menubar() {
           <img src={Logo} alt='logo' />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-5' />
-
         {/* Move the button inside Navbar.Collapse and use Bootstrap classes for positioning */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
@@ -31,7 +30,7 @@ function Menubar() {
           </Nav>
           <button id='Button' className="me-3" onClick={handleButtonClick}>enlist us</button>
         </Navbar.Collapse>
-        
+
       </Navbar>
     </div>
   );
