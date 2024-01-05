@@ -4,10 +4,10 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
  import Rootlayout from './layout/Rootlayout';
 import Home from './component/Home';
-// import About from './component/About';
-// import Class from './component/Class';
-// import Gallery from './component/Gallery';
-// import Contact from './component/Contact';
+import About from './component/About';
+import Class from './component/Class';
+import Gallery from './component/Gallery';
+import Contact from './component/Contact';
 
 function App(){
   return(
@@ -15,10 +15,10 @@ function App(){
      <Routes>
      <Route path='/' element={<Rootlayout/>} >
             <Route index  element={<Home />}/>
-            {/* <Route path='#about' element={<About />}/>
-            <Route path='#class' element={<Class />}/>
-            <Route path='#gallery' element={<Gallery />}/>
-            <Route path='#contact' element={<Contact/>}/> */}
+            <Route path='about' element={<About />}/>
+            <Route path='class' element={<Class />}/>
+            <Route path='gallery' element={<Gallery />}/>
+            <Route path='contact' element={<Contact/>}/>
         </Route>   
      </Routes>
     
