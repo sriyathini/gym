@@ -31,6 +31,7 @@ function Menubar() {
           </Nav>
           <button id='Button' className="me-3" onClick={handleButtonClick}>enlist us</button>
         </Navbar.Collapse>
+        
       </Navbar>
     </div>
   );
